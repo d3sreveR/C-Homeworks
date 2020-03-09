@@ -50,7 +50,7 @@ namespace Task1
                     break;
 
                 default:
-                    Console.WriteLine("It can't be done =)");
+                    Console.WriteLine("One or more of your inputs are not supported in this version.");
                     break;
             }
         }
