@@ -25,17 +25,9 @@ namespace Task1
                     break;
 
                 case "*":
-                    if (nubmerOne == 0 || numberTwo == 0)
-                    {
-                        Console.WriteLine("One of your number was 0");
-                    }
-                    else
-                    {
+                  
                         Console.WriteLine(nubmerOne * numberTwo);
-                    }
-
-                    
-                    break;
+                        break;
 
                 case "/":
                     if (nubmerOne == 0 || numberTwo == 0)
