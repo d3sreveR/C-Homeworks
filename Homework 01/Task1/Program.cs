@@ -26,8 +26,8 @@ namespace Task1
 
                 case "*":
                   
-                        Console.WriteLine(nubmerOne * numberTwo);
-                        break;
+                    Console.WriteLine(nubmerOne * numberTwo);
+                    break;
 
                 case "/":
                     if (nubmerOne == 0 || numberTwo == 0)
