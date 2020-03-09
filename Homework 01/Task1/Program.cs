@@ -12,6 +12,8 @@ namespace Task1
             Console.WriteLine("chose what to do: + , - , * , / ");
             string op = Console.ReadLine();
 
+            
+            
             switch (op)
             {
                 case "+":
@@ -23,11 +25,28 @@ namespace Task1
                     break;
 
                 case "*":
-                    Console.WriteLine(nubmerOne * numberTwo);
+                    if (nubmerOne == 0 || numberTwo == 0)
+                    {
+                        Console.WriteLine("One of your number was 0");
+                    }
+                    else
+                    {
+                        Console.WriteLine(nubmerOne * numberTwo);
+                    }
+
+                    
                     break;
 
                 case "/":
-                    Console.WriteLine(nubmerOne / numberTwo);
+                    if (nubmerOne == 0 || numberTwo == 0)
+                    {
+                        Console.WriteLine("One of your number was 0");
+                    }
+                    else
+                    {
+                        Console.WriteLine(nubmerOne / numberTwo);
+                    }
+                    
                     break;
 
                 default:
