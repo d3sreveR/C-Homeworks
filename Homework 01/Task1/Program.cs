@@ -26,8 +26,8 @@ namespace Task1
 
                 case "*":
                   
-                        Console.WriteLine(nubmerOne * numberTwo);
-                        break;
+                    Console.WriteLine(nubmerOne * numberTwo);
+                    break;
 
                 case "/":
                     if (nubmerOne == 0 || numberTwo == 0)
@@ -45,6 +45,7 @@ namespace Task1
                     Console.WriteLine("One or more of your inputs are not supported in this version.");
                     break;
             }
+            Console.Read();
         }
     }
 }
